@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker build -f app/Dockerfile -t mzad-dev-api/app:latest ./app
+docker build -f node/Dockerfile -t mzad-dev-api/node:latest ./node
